@@ -8,7 +8,6 @@ app.get('/', (req, res) => {
 	res.end("hello");
 });
 
-
 app.get('/v1/search', (req, res) => {
 	console.log(`Got search request - ${util.inspect(req.query)}`);
 
